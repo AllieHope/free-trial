@@ -2,11 +2,9 @@ $blue: #388ff6;
 $white: #fff;
 
 .trust {
-  .container {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 
   .headline {
     font-size: 24px;
@@ -14,7 +12,6 @@ $white: #fff;
     font-weight: 200;
     font-style: normal;
     margin-bottom: 15px;
-    margin-top: 20px;
 
     @media (min-width: 425px) {
       font-size: 36px;

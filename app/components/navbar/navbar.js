@@ -9,8 +9,6 @@ const Navbar = () => {
         <img
           className="logo"
           style={{ margin: '0.5em' }}
-          height="25"
-          width="200"
           src={logoWhite}
           alt="Nutanix Logo"
         />

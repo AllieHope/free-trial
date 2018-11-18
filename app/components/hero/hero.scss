@@ -21,6 +21,10 @@ $white: #fff;
     top: -70px;
     left: 0;
     z-index:-1;
+
+    @media (min-width: 600px) {
+      height: calc(100% - 150px);
+    }
   }
 
   .headline {
@@ -47,11 +51,69 @@ $white: #fff;
       line-height: 36px;
     }
   }
+
+  .fade-in {
+    visibility: hidden;
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0.0;		
+    }
+    100% {
+      opacity: 1;	
+    }		
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0.0;		
+    }
+    100% {
+      opacity: 1;	
+    }		
+  }
   
   .macbook {
     max-height: 700px;
     width: 100%;
+    visibility: hidden;
   }
+
+  .slide-up {
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-timing-function: ease-bounce;
+    -webkit-animation-timing-function: ease-bounce;
+    visibility: visible !important;
+  }
+
+  @keyframes slideUp {
+    0% {
+      transform: translateY(100%);
+    }		
+    100% {
+      transform: translateY(0%);
+    }	
+  }
+  
+  @-webkit-keyframes slideUp {
+    0% {
+      -webkit-transform: translateY(100%);
+    }	
+    100% {
+      -webkit-transform: translateY(0%);
+    }	
+  }  
 
   .button-container {
     padding: 40px;
