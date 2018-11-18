@@ -10,8 +10,9 @@ const UspsSection = () => {
       <div className="container">
         <div className="tile">
           <h4 className="title">Enterprise</h4>
-          <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Nam mollis lorem sed mi bibendum tristique.
+          <p className="subtitle">Pabst air plant cornhole hot chicken iceland gentrify
+          jianbing chicharrones quinoa kinfolk VHS mlkshk. Poke banh mi PBR&B, cardigan
+          selvage whatever venmo cliche normcore.
           </p>
           <img
             className="image"
@@ -21,8 +22,9 @@ const UspsSection = () => {
         </div>
         <div className="tile">
           <h4 className="title">Big Data</h4>
-          <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Nam mollis lorem sed mi bibendum tristique.
+          <p className="subtitle">Fixie celiac pabst irony fanny pack helvetica mustache
+          jianbing portland pug shaman. Selfies brunch squid everyday carry cliche asymmetrical
+          cred etsy gochujang typewriter.
           </p>
           <img
             className="image"
@@ -32,8 +34,9 @@ const UspsSection = () => {
         </div>
         <div className="tile">
           <h4 className="title">VDI</h4>
-          <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Nam mollis lorem sed mi bibendum tristique.
+          <p className="subtitle">Everyday carry cronut coloring book pinterest kickstarter
+          flannel DIY ramps fingerstache venmo schlitz swag ugh forage. Food truck lomo
+          godard vinyl sustainable tbh lo-fi.
           </p>
           <img
             className="image"
