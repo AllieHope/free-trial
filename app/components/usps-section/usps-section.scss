@@ -1,0 +1,48 @@
+$blue: #388ff6;
+$white: #fff;
+$gray: #e4e6ea;
+
+.usps {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: $gray;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  
+    @media (min-width: 600px) {
+      flex-direction: row;
+    }
+  }
+
+  .tile {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom: 15px;
+    margin-top: 20px;
+
+    @media (min-width: 425px) {
+      font-size: 36px;
+      line-height: 50px;
+    }
+  }
+
+  .subtitle {
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .image {
+    max-width: 50%;
+  }
+}

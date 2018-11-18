@@ -1,0 +1,37 @@
+.modal {
+  &-content {
+    border-radius: 0 !important;
+  }
+
+  @media (max-width: 425px) {
+    &-dialog {
+      margin: -1px !important;
+    }
+    &-content {
+      min-height: 100vh;
+      border-radius: 0 !important;
+    }
+  }
+
+  &-header {
+    border-bottom: none !important;
+  }
+
+  &-title {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 60px;
+  }
+
+  &-footer {
+    border-top: none !important;
+  }
+
+  .close {
+    font-size: 4rem;
+    font-weight: 200;
+    padding: 0 !important;
+    margin: -10px 0 !important  
+  }
+}
